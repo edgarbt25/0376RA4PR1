@@ -8,7 +8,7 @@ titol.style.color = "blue";
 //2 - Contingut: Fes que un paràgraf <p> mostri "Hola Món" usant textContent.
 
 const paragraf = document.querySelector("#paragraf-hola");
-paragraf.textContent = "Hola Món";   
+paragraf.textContent = "Hola lluna";   
 
 //3 - Atributs: Canvia la 'src' d'una imatge <img> usant setAttribute.
 
