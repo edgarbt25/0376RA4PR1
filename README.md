@@ -5,8 +5,15 @@ Pràctica d'exercicis per aprendre a manipular el DOM amb JavaScript.
 
 ## Fitxers
 - `index.html` — estructura de la pàgina
-- `estils.css` — estils visuals
+- `style.css` — estils visuals
 - `script.js` — lògica JavaScript
+- `README.md` — documentació del projecte
+
+## Canvis realitzats
+- **script.js** — canviat el text de "Hola Món" per "Hola Luna" al paràgraf principal
+- **style.css** — canviat el color de fons de l'element eliminar a `#612b2b`
+- **index.html** — eliminat el text "del mapa" i eliminat "o canviar el fons d'aquesta caixa."
+- **README.md** — afegit el fitxer de documentació
 
 ## Exercicis
 
@@ -16,16 +23,4 @@ Seleccionem un element i canviem el seu contingut:
 
 ### 2. Canviar imatge
 Modifiquem l'atribut `src` d'una imatge:
-`document.getElementById("imatge-canviant").src = "https://nova-url.com/img.jpg";`
-
-### 3. Llançar alerta
-Afegim un event al botó:
-`document.getElementById("boto-alerta").addEventListener("click", () => alert("Hola!"));`
-
-### 4. Toggle de classe
-Commuta la classe `actiu` sobre un element:
-`document.getElementById("text-classe").classList.toggle("actiu");`
-
-### 5. Afegir element a la llista
-Creem un `<li>` nou i l'afegim a la llista:
-`document.getElementById("llista-compra").appendChild(document.createElement("li"));`
+`document.getElementById("imatge-canviant").src =
