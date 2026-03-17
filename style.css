@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    transition: background 0.3s;
+    max-width: 760px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    margin-bottom: 24px;
+    font-size: 1.8rem;
+}
+
+h3 {
+    margin-bottom: 8px;
+}
+
+.caixa {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.actiu {
+    background-color: #ffd700;
+    font-weight: bold;
+    border-color: #ffa500;
+}
+
+.dark-mode {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.dark-mode .caixa {
+    background-color: #3d5166;
+    border-color: #5a7a94;
+}
+
+img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+small {
+    color: #888;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 12px;
+    margin-top: 5px;
+    border: 2px solid #333;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul#llista-compra {
+    padding-left: 20px;
+    margin-top: 6px;
+}
+
+ul#llista-compra li {
+    margin-bottom: 4px;
+}
+
+#element-eliminar {
+    background: #ffcccc;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px dashed #e06060;
+}
+
+#element-eliminar:hover {
+    opacity: 0.75;
+}
